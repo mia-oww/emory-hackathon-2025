@@ -15,10 +15,60 @@
     display: block;
     margin: 0 auto;
   }
-
+  
   body {
     font-family: 'Lexend', sans-serif;
-    background-color: #C9DCF5; /* your blue bg */
+    background-color: #C9DCF5;
     color: #1a1a1a;
     margin: 0;
   }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  
+  /* Shared button style */
+  .button {
+    font-family: 'Lexend', sans-serif;
+    background-color: white;
+    color: #2164B5;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button:active {
+    transform: scale(0.98);
+  }
+
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+  

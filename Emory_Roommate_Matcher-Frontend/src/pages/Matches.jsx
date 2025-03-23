@@ -9,10 +9,18 @@ function Matches() {
 
   return (
     <>
-      <div>
-        <h1>Welcome, This is your roommate match!</h1>
-        <button onClick={handleGoHome}>Go Back to Home</button>
+
+    <div>
+        <h1>No matches yet. Create a profile?</h1>
       </div>
+      
+
+      <div className="center-button">
+        
+      <button className="button" onClick={handleGoHome}>Go Back to Home</button>
+      </div>
+
+    
     </>
   );
 }
