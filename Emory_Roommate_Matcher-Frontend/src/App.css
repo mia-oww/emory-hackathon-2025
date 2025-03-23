@@ -1,0 +1,24 @@
+
+.center-everything {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    gap: 0;
+  }
+  
+  .logo-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #C9DCF5; /* your blue bg */
+    color: #1a1a1a;
+    margin: 0;
+  }
