@@ -1,0 +1,132 @@
+
+.center-everything {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    gap: 0;
+  }
+  
+  .logo-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #C9DCF5;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  
+  /* Shared button style */
+  .button {
+    font-family: 'Lexend', sans-serif;
+    background-color: white;
+    color: #2164B5;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button:active {
+    transform: scale(0.98);
+  }
+
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+
+  .logo-button {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .logo-button:hover {
+    transform: scale(1.2
+);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  }
+
+
+.select {
+    font-family: 'Lexend', sans-serif;
+    background-color: white;
+    color: #2164B5;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%232164B5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    padding-right: 2.5rem; 
+    text-align: center;
+  }
+  
+  .select:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(33, 100, 181, 0.3);
+  }
+
+  .dropdown-container {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .dropdown-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+  
+  
