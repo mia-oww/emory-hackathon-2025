@@ -12,7 +12,7 @@ app = Flask(__name__)
 app.config.from_object(Config)#load config from Config class
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///roommates.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['JWT_SECRET_KEY'] = 'your_secret_key'
+app.config['JWT_SECRET_KEY'] = '/////'
 jwt = JWTManager(app)
 
 db.init_app(app)#initializing db with app
